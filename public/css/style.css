@@ -1,0 +1,76 @@
+/* I don't actually like normalize, because extra paddings in h1 and other stuff might be pretty annoying */
+/* so I just reset */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: cyan;
+  }
+}
+
+@media only screen and (max-width: 860px) and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/* common styles */
+/* centering container */
+
+.cent_box {
+  background-color: lightgreen;
+  max-width: 860px;
+  min-width: 860px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+/* HEADER NAV  */
+
+header {
+  background-color: lightgray;
+}
+
+/* top part of header */
+
+.header_top {
+  background-color: white;
+}
+
+.header_top_bages {
+  background-color: white;
+  color: #4b4b4b;
+}
+
+/* bottom part of header */
+
+.header_bott {
+  background-color: #006cac;
+  width: 100%;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_nav__ul {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #006cac;
+}
+
+.header_nav__ul > li:hover {
+  background-color: #1b7bb5;
+  cursor: pointer;
+}
+
+.header_nav__ul > li {
+  color: white;
+  padding: 25px 15px;
+}
