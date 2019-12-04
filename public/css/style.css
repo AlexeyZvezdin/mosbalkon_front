@@ -46,14 +46,56 @@ header {
 .header_top_bages {
   background-color: white;
   color: #4b4b4b;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  box-sizing: border-box;
 }
 
+.header_top_h1 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.header_top_callbage {
+  font-weight: bold;
+  font-size: 16px;
+  color: #2581b4;
+  text-shadow: 1px 1px 2px lightblue, 0 0 1em lightblue;
+  text-decoration: underline;
+}
+
+.header_top_callnumber {
+  font-weight: bold;
+  color: #016dad;
+  display: flex;
+  align-items: center;
+}
+.header_top_callnumber__phoneimg > img {
+  height: 0.6em;
+  width: 0.6em;
+  padding-right: 2px;
+}
+.header_top_callnumber__small {
+  font-size: 0.9em;
+  padding-right: 4px;
+}
+.header_top_callnumber__big {
+  font-size: 1.4em;
+}
 /* bottom part of header */
 
 .header_bott {
   background-color: #006cac;
   width: 100%;
 }
+
+.header_bott__box {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header_nav {
   display: flex;
   justify-content: space-between;
@@ -73,4 +115,28 @@ header {
 .header_nav__ul > li {
   color: white;
   padding: 25px 15px;
+}
+
+.header_nav__calc_box {
+  background-color: #006cac;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.header_nav__calc {
+  color: white;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #f5ca01;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.header_nav__calc img {
+  margin-top: 3px;
+  padding-right: 5px;
 }
