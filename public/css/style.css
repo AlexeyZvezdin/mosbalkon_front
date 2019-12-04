@@ -25,7 +25,7 @@
 /* centering container */
 
 .cent_box {
-  background-color: lightgreen;
+  background-color: rgb(255, 255, 255, 0.3);
   max-width: 860px;
   min-width: 860px;
   margin: 0 auto;
@@ -38,7 +38,7 @@ header {
   background-color: lightgray;
 }
 
-/* top part of header */
+/* top part of the header */
 
 .header_top {
   background-color: white;
@@ -94,7 +94,7 @@ header {
 .header_top_callnumber__big {
   font-size: 1.4em;
 }
-/* bottom part of header */
+/* bottom part of the header */
 
 .header_bott {
   background-color: #006cac;

@@ -1,0 +1,14 @@
+.box__actions {
+  background-image: url('../assets/slide_1.png');
+  height: 460px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box__actions_delimeter {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 460px;
+}
