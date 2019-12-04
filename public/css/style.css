@@ -7,6 +7,7 @@
   outline: none;
   list-style-type: none;
   text-decoration: none;
+  color: inherit;
 }
 
 @media only screen and (max-width: 600px) {
